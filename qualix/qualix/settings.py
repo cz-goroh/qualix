@@ -13,9 +13,9 @@ import os
 
 from pathlib import Path
 
-crt = open('/home/kolobkov-jw/Документы/work/kualix/src/proj/qualix/Manage/client03test.crt', 'r')
+crt = open('/path/to/crt', 'r')
 crt_r = crt.read()
-key = open('/home/kolobkov-jw/Документы/work/kualix/src/proj/qualix/Manage/client03test.key', 'r')
+key = open('/path/to/key', 'r')
 key_r = key.read()
 crt.close()
 key.close()
